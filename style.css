@@ -3,9 +3,37 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
 }
+/* -----------------nav style------------------ */
+
+nav li{
+    list-style: none;
+    margin-right: 70px;
+    padding: 0px 10px;
+    margin-top: 0px;
+}
+nav li:hover{
+    background-color: pink;
+}
+nav li a{
+    text-decoration: none;
+    color:#3A3A3A; ;
+    font-size: 20px;
+    
+}
+nav ul{
+    display: flex;
+}
+/*--------------- article------------------- */
+.new-gap{
+    margin-left: 857px;
+}
 #headline-gap{
     margin-left: 120px;
     margin-top: 113px;
+}
+.tiny-gap{
+    font-weight: 700;
+    padding: 15px;
 }
 .influencer{
     margin-left: 120px;
@@ -18,8 +46,13 @@ h1{
     font-size: 52px;
     width: 582px;
     height: 133px;
-   
     
+    
+    
+}
+.heading{
+    padding: 0px;
+    line-height: 10px;
 }
 .description{
     font-family: 'Poppins', sans-serif;
@@ -54,6 +87,11 @@ h1{
    margin-top: 200px;
    margin-left: 200px;
 }
+.animation:hover{
+    transform: rotate(45deg);
+    
+
+}
 .first-segment{
     display: flex;
 }
@@ -87,6 +125,13 @@ h1{
     column-gap: 0;
     margin: 100px;
 }
+.see{
+    margin-left: 1000px;
+    padding-left: 20px;
+}
+.fa-hand-point-right{
+
+}
  /* ----------------------part 4--------------------- */
 
  .size{
@@ -118,11 +163,11 @@ h1{
 .style{
     font-family: 'Manrope', sans-serif;
     font-size: 14px;
-    margin-left:589px;
+    margin-left:570px;
 
 }
 .style-1{
-    margin-left: 615px;
+    margin-left: 625px;
 }
 .center{
     margin-left: 610px;
@@ -143,7 +188,32 @@ h1{
 .fa-twitter-square{
     padding: 10px;
 }
+/* ------------media queries----------- */
 
+/* ------------mobile phones------------------ */
+
+@media only screen and (max-width:688px) {
+
+    .course-banner{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+    }
+     .first-segment{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        
+    }
+}
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .first-segment{
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+        
+    }
+    .media{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 
 
 
