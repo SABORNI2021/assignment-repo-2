@@ -3,6 +3,10 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #3A3A3A;
 }
+#headline-gap{
+    margin-left: 120px;
+    margin-top: 113px;
+}
 .influencer{
     margin-left: 120px;
 }
@@ -66,12 +70,16 @@ h1{
 } 
 .course-banner{
     margin: 20px;
-    height: 500px;
+    height: 530px;
     width: 300px;
     border: 10px;
     border-radius: 10px;
     padding: 10px;
     box-shadow:10px 10px 10px grey;
+}
+.fa-star{
+    color: slateblue;
+    
 }
 .items{
     display: grid;
@@ -81,17 +89,17 @@ h1{
 }
  /* ----------------------part 4--------------------- */
 
- .pic{
-    width: 400px;
-    height: 100px;
-     
-    
+ .size{
+    width: 500px;
+    height: 500px;
+     margin-left: 120px;
+    margin-bottom: 20px;
 }   
 .extra-info{
     display: flex;
 }
 .written-part{
-    margin-left: 350px;
+    margin-left: 50px;
 }
 .arrow.written-part{
     margin-bottom: 30px;
@@ -113,8 +121,27 @@ h1{
     margin-left:589px;
 
 }
+.style-1{
+    margin-left: 615px;
+}
 .center{
-    margin-left: 598px;
+    margin-left: 610px;
+}
+.icon-gap{
+    margin-left: 650px;
+    
+}
+.fa-facebook{
+    padding: 10px;
+}
+.fa-instagram{
+    padding: 10px;
+}
+.fa-linkedin-in{
+    padding: 10px;
+}
+.fa-twitter-square{
+    padding: 10px;
 }
 
 
